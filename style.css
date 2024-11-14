@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+
+}
+.footer{
+    height: 100%;
+    width: 100%;
+    background-color: #676565;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.up{
+    height: 50%;
+    width: 90%;
+     background-color:white; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    display: flex;
+    justify-content: center;
+}
+
+.elem1{
+    height: 100%;
+    width: 35%;
+    /* background-color: green; */
+    border-bottom-left-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.elem1 h5{
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 300;
+    /* font-weight: 100px; */
+}
+.elem2{
+    height: 100%;
+    width: 45%;
+    /* background-color:yellow; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.elem2 h1{
+    font-weight:400;
+}
+.elem2>h1::after {
+    /* content: ""; */
+    height: 10%;
+    width: 100%;
+    color: aqua;
+}
+
+.elem3{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    /* justify-content: center; */
+    padding: 0 10px;
+    
+}
+.box{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    padding: 9% 9%;
+    border-radius: 50%;
+}
+.box i{
+    /* background-color: red; */
+    font-size: 20px;
+}
+ .dow{
+    height: 50%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+} 
+.boxes{
+    height: 100%;
+    width: 20%;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+    display: flex;
+}
+.at{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.bt{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.ct{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.dt{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.et{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 50px;
+}
